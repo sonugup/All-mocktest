@@ -154,3 +154,92 @@
 .main3{
     background-color: white;
 }
+
+/* select-4 */
+
+.contain4{
+    border: 1px solid blue;
+}
+
+.main4{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.main4>div{
+    padding: 30px;
+}
+.post{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+    width: 120px;
+    height: 100px;
+}
+.pra4{
+    padding-left: 20px;
+    line-height: 25px;
+}
+.pra4>p{
+    line-height: 30px;
+    font-size: 13px;
+    color: gray;
+    width: 100%;
+}
+.pra4>h3{
+    line-height: 25px;
+    font-weight: bold;
+}
+.post1{
+    display: flex;
+}
+.about{
+    width: 300px;
+    /* padding: 30px; */
+    line-height: 30px;
+    font-size: 15px;
+    margin: 13px;
+}
+.about1{
+    width: 1000px;
+    padding: 20px;
+}
+.face{
+    display: flex;
+
+}
+.face>img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 11px;
+}
+
+/* section-5 */
+
+.contain5{
+    border: 2px solid teal;
+}
+
+.main5{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+.btn5{
+    padding: 25px;
+}
+.btn5>div{
+    padding: 4px;
+}
+.btn5>div>button{
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 11px;
+    background-color: rgb(221, 216, 216);
+}
