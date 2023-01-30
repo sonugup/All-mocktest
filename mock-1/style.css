@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.containe{
+.containe {
     width: 100%;
     border: 2px solid;
     background-image: url("bgimage.jpg");
@@ -13,29 +13,33 @@
     margin: auto;
 }
 
-.main{
+.main {
     margin-top: 15%;
     text-align: center;
     line-height: 29px;
 }
-.name{
+
+.name {
     font-size: 44px;
     color: white;
     padding: 20px;
 }
-.pra{
+
+.pra {
     color: white;
     font-size: 15px;
     line-height: 14px;
 }
-.btn{
+
+.btn {
     display: flex;
     text-align: center;
     margin: auto;
     justify-content: center;
     padding: 25px;
 }
-.btn1{
+
+.btn1 {
     padding: 13px;
     font-size: 8px;
     border-radius: 30px;
@@ -44,7 +48,8 @@
     border: none;
     margin: 10px;
 }
-.btn2{
+
+.btn2 {
     padding: 13px;
     font-size: 9px;
     border-radius: 30px;
@@ -54,67 +59,82 @@
     font-weight: bold;
     margin: 10px;
 }
-.constain2{
+
+/* section-2 */
+.constain2 {
     border: 2px solid green;
 }
-.main1{
+
+.main1 {
     margin: auto;
     text-align: center;
     padding: 40px;
 }
-.b-img{
+
+.b-img {
     width: 60%;
     display: flex;
     margin: auto;
     gap: 20px;
 
 }
-.b-img>div{
+
+.b-img>div {
     margin: auto;
     width: 50%;
 }
-.imag1{
+
+.imag1 {
     gap: 15px;
 }
-.img1{
+
+.img1 {
     width: 100%;
     /* border-radius: 5px; */
     height: 100%;
 }
-.img2{
+
+.img2 {
     width: 100%;
     height: 200px;
     border-radius: 5px;
-    
+
 }
-.img3{
+
+.img3 {
     width: 100%;
     height: 470px;
     border-radius: 5px;
 }
-.b-img1{
+
+.b-img1 {
     display: flex;
     gap: 10px;
 }
-.head{
+
+.head {
     padding: 20px;
 }
-.name1{
+
+.name1 {
     padding: 10px;
     font-size: 28px;
     color: gray;
 }
-.pra1{
+
+.pra1 {
     font-size: 12px;
     color: rgb(167, 112, 11);
     padding: 5px;
     font-weight: bold;
 }
+
 /* section-3 */
-.room{
+.room {
     display: flex;
 }
-.contain3{
+
+.contain3 {
     border: 1px solid yellow;
     margin: auto;
     text-align: center;
@@ -122,28 +142,32 @@
     padding-bottom: 50px;
     background-color: rgb(197, 208, 218);
 }
-.room>div{
+
+.room>div {
     width: 100%;
 }
-.star{
+
+.star {
     color: rgb(246, 85, 152);
 }
 
-.name2{
+.name2 {
     font-size: 20px;
     color: rgb(63, 62, 62);
     padding: 17px;
 }
 
-.pra2{
- color: rgb(96, 94, 94);
- font-size: 16px;
- padding: 3px;
+.pra2 {
+    color: rgb(96, 94, 94);
+    font-size: 16px;
+    padding: 3px;
 }
-.pra2>b{
+
+.pra2>b {
     color: rgb(32, 31, 31);
 }
-.btn3{
+
+.btn3 {
     background: none;
     padding: 20px;
     font-size: 17px;
@@ -151,65 +175,77 @@
     border: 2px solid rgb(186, 183, 183);
 
 }
-.main3{
+
+.main3 {
     background-color: white;
 }
 
 /* select-4 */
 
-.contain4{
+.contain4 {
     border: 1px solid blue;
 }
 
-.main4{
+.main4 {
     display: flex;
     margin: auto;
     width: 80%;
 }
-.main4>div{
+
+.main4>div {
     padding: 30px;
 }
-.post{
+
+.post {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.logo{
+
+.logo {
     width: 120px;
     height: 100px;
 }
-.pra4{
+
+.pra4 {
     padding-left: 20px;
     line-height: 25px;
 }
-.pra4>p{
+
+.pra4>p {
     line-height: 30px;
     font-size: 13px;
     color: gray;
     width: 100%;
 }
-.pra4>h3{
+
+.pra4>h3 {
     line-height: 25px;
     font-weight: bold;
 }
-.post1{
+
+.post1 {
     display: flex;
 }
-.about{
+
+.about {
     width: 300px;
     /* padding: 30px; */
     line-height: 30px;
     font-size: 15px;
     margin: 13px;
 }
-.about1{
+
+.about1 {
     width: 1000px;
     padding: 20px;
 }
-.face{
+
+.face {
     display: flex;
 
 }
-.face>img{
+
+.face>img {
     width: 20px;
     border-radius: 50%;
     padding: 11px;
@@ -217,24 +253,27 @@
 
 /* section-5 */
 
-.contain5{
+.contain5 {
     border: 2px solid teal;
 }
 
-.main5{
+.main5 {
     width: 60%;
     margin: auto;
     text-align: center;
     justify-content: center;
     padding: 30px;
 }
-.btn5{
+
+.btn5 {
     padding: 25px;
 }
-.btn5>div{
+
+.btn5>div {
     padding: 4px;
 }
-.btn5>div>button{
+
+.btn5>div>button {
     padding: 8px;
     margin: 5px;
     border: none;
@@ -242,4 +281,259 @@
     border-radius: 2px;
     font-size: 11px;
     background-color: rgb(221, 216, 216);
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .b-img {
+        width: 90%;
+        display: grid;
+        margin: auto;
+        gap: 10px;
+
+    }
+
+    .img3 {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+    }
+
+    .b-img>div {
+        margin: auto;
+        width: 75%;
+    }
+
+    /* section-2 */
+
+    .room {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .post {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about {
+        width: 250px;
+        /* padding: 30px; */
+        line-height: 25px;
+        font-size: 15px;
+        /* margin: 10px; */
+    }
+
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pra4 {
+        padding-left: 20px;
+        line-height: 25px;
+    }
+
+    .pra4>p {
+        line-height: 20px;
+        font-size: 12px;
+        color: gray;
+        width: 100%;
+    }
+
+    .pra4>h3 {
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .post1 {
+        display: flex;
+        width: 300px;
+        border: 1px solid
+    }
+
+    .main4 {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+
+    .main4>div {
+        padding: 10px;
+    }
+
+    .main5 {
+        width: 70%;
+        margin: auto;
+        text-align: left;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 35px;
+        color: white;
+        padding: 15px;
+    }
+
+    .pra {
+        color: white;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 479px) {
+    .btn {
+        display: grid;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        padding: 1px;
+        width: 100%;
+    }
+    
+    .btn1 {
+        padding: 17px;
+        font-size: 11px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(248, 6, 107);
+        border: none;
+        margin: 15px;
+    }
+    
+    .btn2 {
+        padding: 15px;
+        font-size: 11px;
+        border-radius: 30px;
+        color: white;
+        background: none;
+        border: 1px solid white;
+        font-weight: bold;
+        margin: 10px;
+    }
+    
+    .b-img {
+        width: 90%;
+        display: grid;
+        margin: auto;
+        gap: 10px;
+
+    }
+
+    .img2 {
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    
+    .img3 {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .b-img1 {
+        display: grid;
+        gap: 10px;
+    }
+
+    .b-img>div {
+        margin: auto;
+        width: 90%;
+    }
+
+    /* section-2 */
+
+    .room {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+
+    /* section-4 */
+
+    .post {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about {
+        width: 250px;
+        /* padding: 30px; */
+        line-height: 25px;
+        font-size: 15px;
+        /* margin: 10px; */
+    }
+
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pra4 {
+        padding-left: 20px;
+        line-height: 25px;
+    }
+
+    .pra4>p {
+        line-height: 20px;
+        font-size: 12px;
+        color: gray;
+        width: 100%;
+    }
+
+    .pra4>h3 {
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .post1 {
+        display: flex;
+        width: 300px;
+        border: 1px solid
+    }
+
+    .main4 {
+        display: grid;
+        margin: auto;
+        width: 100%;
+    }
+
+    .main4>div {
+        padding: 10px;
+    }
+
+    .main5 {
+        width: 70%;
+        margin: auto;
+        text-align: left;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 27px;
+        color: white;
+        padding: 15px;
+    }
+
+    .pra {
+        color: white;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .main {
+        width: 100%;
+        margin-top: 15%;
+        /* text-align: center; */
+        line-height: 29px;
+    }
 }
