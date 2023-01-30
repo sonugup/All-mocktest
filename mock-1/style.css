@@ -5,7 +5,7 @@
 
 .containe {
     width: 100%;
-    border: 2px solid;
+    border: .1px solid white;
     background-image: url("bgimage.jpg");
     height: 100vh;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 
 /* section-2 */
 .constain2 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .main1 {
@@ -135,7 +135,7 @@
 }
 
 .contain3 {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin: auto;
     text-align: center;
     padding-top: 20px;
@@ -183,7 +183,7 @@
 /* select-4 */
 
 .contain4 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .main4 {
@@ -254,7 +254,7 @@
 /* section-5 */
 
 .contain5 {
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
 }
 
 .main5 {
