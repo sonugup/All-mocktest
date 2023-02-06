@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Players Page</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="./scripts/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html">Players Page</a>
+      <a href="./games.html">Games Page</a>
+    </header>
+    <!-- <section class="search_bar">
+      <input type="text" placeholder="enter player name" />
+      <button class="searchPlayer">search</button>
+    </section> -->
+    <section class="section_players_pagination">
+      <button class="btn prev_page">prev</button>
+      <span id="current_page">1</span>
+      <button class="btn next_page">next</button>
+    </section>
+
+    <section class="section_players">
+      <!-- <div class="player_card">
+        <img class="player_img" src="./img/img.jpg" alt="player_img" />
+        <p class="player_name">name: Ike Anigbogu</p>
+        <p class="player_pos">postion: C</p>
+        <button class="btn showBtn">team details</button>
+      </div> -->
+    </section>
+
+    <div class="player_detail_modal">
+      <img class="player_img" src="./images/player.jpg" alt="player_img" />
+      <p class="player_name modal_name">name: Ike Anigbogu</p>
+      <p class="player_pos modal_pos">postion: C</p>
+      <button class="btn showBtn">team details</button>
+      <h2>team details</h2>
+      <div>
+        <p class="team_name">Team: Golden State Warriors</p>
+        <p class="team_abbr">abbr: Warriors</p>
+        <p class="team_conference">conference: east</p>
+        <p class="team_division">division: altlantic</p>
+        <p class="team_city">city: new york</p>
+        <button class="btn close_btn">❌</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>

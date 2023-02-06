@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --first-color: #d61355;
+  --second-color: #f94a29;
+  --third-color: #fce22a;
+  --fourth-color: #30e3df;
+}
+
+.header {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 1rem;
+  background: var(--second-color);
+  color: white;
+  text-align: center;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  margin: 0rem 1rem;
+
+}
+.header a:hover {
+  text-decoration: underline;
+}
+.section_players {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.search_bar {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+  font-size: 2rem;
+}
+.section_players_pagination {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px solid #000;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev_page {
+  background: var(--second-color);
+}
+
+.next_page {
+  background: var(--fourth-color);
+}
+
+#current_page {
+  margin: 0rem 1rem;
+}
+
+.player_card {
+  text-transform: capitalize;
+  border: 1px solid #ededed;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 0.3s ease-in-out;
+}
+.player_card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn {
+  text-transform: uppercase;
+  outline: none;
+  padding: 0rem 1rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.showBtn {
+  background: var(--first-color);
+}
+.player_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.player_detail_modal {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%) scale(0);
+
+  text-transform: capitalize;
+
+  border: 1px solid #000;
+  padding: 1rem 2rem;
+  background-color: var(--first-color);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 0.4s ease-in-out;
+}
+.player_detail_modal > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show_modal {
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.make_blur {
+  background: #e7dedd;
+}
