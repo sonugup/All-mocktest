@@ -13,11 +13,27 @@ const options={
 const apiURL='https://api.api-ninjas.com/v1/dadjokes?limit=1'
  
  async function getJoke(){
-    const res= await fetch(apiURL, options)
-    const data=await res.json()
+    try{
+        jockel.innerText="Loading...."
 
-    jockel.innerText =data[0].joke
-    console.log(data[0].joke)
+        btnE1.disabled=true;
+        btnE1.innerText="Loading..."
+        const res= await fetch(apiURL, options)
+        const data=await res.json()
+    
+        btnE1.disabled=true;
+        btnE1.innerText="Tell me a joke"
+    
+        jockel.innerText =data[0].joke
+        console.log(data[0].joke)
+    }catch(error){
+        jockel.innerText="An error happened , try again later"
+
+        btnE1.disabled=true;
+        btnE1.innerText="Tell me a joke"
+        console.log(error)
+    }
+    
 }
 
 btnE1.addEventListener("click", getJoke)
