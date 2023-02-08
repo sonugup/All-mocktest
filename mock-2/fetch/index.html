@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container md-5 mb-5">
+        <table class="table table-dark table-striped">
+           <thead>
+            <tr>
+                <th scope="col">BTC price</th>
+                <th scope="col">Rank</th>
+                <th scope="col">Tier</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Symbol</th>
+                <th scope="col">BTC price</th>
+            </tr>
+           </thead> 
+           <tbody id="data">
+
+           </tbody>
+        </table>
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <button class="page-link mx-2" id="prevButton">Prev</button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link mx-2"  id="nextButton">Next</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
