@@ -1,0 +1,72 @@
+.secondary_nav {
+    max-width: 1200px;
+    background: var(--first-color);
+    padding: 1rem 1rem;
+    margin: auto;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    font-size: 20px;
+  }
+  
+  .secondary_nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .secondary_nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* registration form styles  */
+  .registeration_form {
+    max-width: 1200px;
+    background: var(--fourth-color);
+    padding: 1rem 1rem;
+    margin: auto;
+    color: white;
+  
+    font-size: 20px;
+  }
+  
+  .registeration_form>h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .form {
+    max-width: 900px;
+    padding: 1rem 1rem;
+    margin: auto;
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+  }
+  
+  .btn {
+    background: var(--first-color);
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .formfield {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }

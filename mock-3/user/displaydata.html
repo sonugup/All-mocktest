@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Books</title>
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/displaydata.css">
+  <script src="../scripts/displaydata.js" defer></script>
+</head>
+
+<body>
+  <!-- main nav  -->
+  <header>
+    <nav class="main_nav">
+      <span class="navheading">
+        book Store app
+      </span>
+      <a href="../Admin/login.html">admin</a>
+      <a href="../User/displaydata.html">user</a>
+    </nav>
+  </header>
+  <!-- admin panel nav  -->
+  <nav class="secondary_nav">
+    <a href="./displaydata.html">all books</a>
+    <a href="./borrowed.html">borrowed</a>
+  </nav>
+  <!-- books container  -->
+  <section class="section_books">
+    <section class="filters">
+      <div class="search">
+        <input type="text" class="search_name">
+        <button class="btn searchBtn">search</button>
+      </div>
+      <div class="sorting">
+        <select name="sort" id="sort">
+          <option value="">select sort</option>
+          <option value="asc">ascending</option>
+          <option value="dsc">descending</option>
+        </select>
+      </div>
+      <div class="filter">
+        <select name="genre" id="filter_by_genre">
+          <option value="">select genre</option>
+          <option value="science">science</option>
+          <option value="fiction">Fiction</option>
+          <option value="history">History</option>
+          <option value="tech">Tech</option>
+          <option value="business">Business</option>
+        </select>
+      </div>
+    </section>
+    <div class="books_container">
+
+    </div>
+  </section>
+  <!-- borrow modal  -->
+  <div class="borrow_modal">
+    <section class="upper_section">
+      <div class="borrow_book_img">
+        <img src="https://m.media-amazon.com/images/I/5165He67NEL.jpg" alt="">
+      </div>
+      <div class="borrow_book_info">
+        <p class="borrow_book_name">Harry Potter and the Philosopher's Stone</p>
+        <p class="borrow_book_author">jk rowling</p>
+        <p class="borrow_book_edition">2020</p>
+      </div>
+    </section>
+    <div class="middle_section">
+      <p class="borrowed_by">John Doe</p>
+      <p class="date_of_borrow">20-04-2023</p>
+      <p class="borrow_cost">1299</p>
+    </div>
+    <div class="bttom_section">
+      <button class="btn close">close</button>
+      <button class="btn confirm">confirm</button>
+    </div>
+  </div>
+</body>
+
+</html>

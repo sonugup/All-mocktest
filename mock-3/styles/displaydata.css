@@ -1,0 +1,118 @@
+.secondary_nav {
+    max-width: 1200px;
+    background: var(--first-color);
+    padding: 1rem 1rem;
+    margin: auto;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    font-size: 20px;
+  }
+  
+  .secondary_nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .secondary_nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* books styles  */
+  .section_books {
+    max-width: 1200px;
+    background: var(--first-color);
+    margin: auto;
+  }
+  
+  .books_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .book_card {
+    display: flex;
+    gap: 5px;
+    background: #d9d9d9;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .book_img_div {
+    width: 50%;
+  }
+  
+  .book_img_div>img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  
+  .filters {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .searchBtn {
+    background: var(--second-color);
+    padding: 0.2rem 1rem;
+  }
+  
+  .borrowBtn {
+    background: var(--first-color);
+  }
+  
+  .close {
+    background: var(--thirdcolor);
+  }
+  
+  .confirm {
+    background-color: green;
+  }
+  
+  /* modal css  */
+  .borrow_modal {
+    width: 300px;
+    border: 1px solid #000;
+    background: var(--second-color);
+    text-transform: capitalize;
+    color: white;
+    padding: 1rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    position: fixed;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+  
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .show_modal {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .upper_section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .borrow_book_img {
+    width: 50%;
+    padding: 1rem;
+  }
+  
+  .borrow_book_img img {
+    width: 100%;
+  }

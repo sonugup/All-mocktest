@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --first-color: #d61355;
+  --second-color: #f94a29;
+  --third-color: #fce22a;
+  --fourth-color: #30e3df;
+}
+
+/* secondary nav styles  */
+.secondary_nav {
+  max-width: 1200px;
+  background: var(--first-color);
+  padding: 1rem 1rem;
+  margin: auto;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 20px;
+}
+
+.secondary_nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.secondary_nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* loader  */
+.loader {
+  text-align: center;
+}
+
+/* table styles  */
+.section_books {
+  max-width: 1200px;
+  background: var(--first-color);
+  padding: 1rem 1rem;
+  margin: auto;
+  color: white;
+}
+
+.books_table {
+  width: 100%;
+  margin: auto;
+  padding: 1rem 1rem;
+
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.books_table th {
+  text-transform: uppercase;
+}
+
+.books_table td {
+  border: 1px solid #000;
+  width: 10%;
+  text-align: center;
+}
+
+.table_body tr img {
+  width: 200px;
+}
+
+.edit_btn {
+  background: var(--second-color);
+}
+
+.delete_btn {
+  background: red;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.table_body tr td {
+  background: var(--fourth-color);
+  padding: 1rem;
+  margin: 1rem;
+  border: 3px solid var(--third-color);
+  color: var(--second-color);
+  font-weight: bolder;
+}

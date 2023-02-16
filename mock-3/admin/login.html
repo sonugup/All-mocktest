@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../styles/login.css">
+  <link rel="stylesheet" href="../styles/index.css">
+  <script src="../scripts/login.js" defer></script>
+</head>
+
+<body>
+  <!-- main nav  -->
+  <header>
+    <nav class="main_nav">
+      <span class="navheading">
+        book Store app
+      </span>
+      <a href="#">admin</a>
+      <a href="../User/displaydata.html">user</a>
+    </nav>
+  </header>
+  <!-- admin panel nav  -->
+  <nav class="secondary_nav">
+    <a href="#">login</a>
+    <a href="./data.html">data</a>
+    <a href="./form.html">form</a>
+  </nav>
+
+  <!-- login form  -->
+  <section class="login_form">
+    <h1>login form</h1>
+    <form class="form">
+      <div class="formfield">
+        <label for="email">email</label>
+        <input name="email" type="email" id="email" placeholder="eve.holt@reqres.in">
+      </div>
+      <div class="formfield">
+        <label for="password">password</label>
+        <input name="password" type="password" id="password">
+      </div>
+      <button class="btn login" type="submit">login</button>
+    </form>
+  </section>
+</body>
+
+</html>

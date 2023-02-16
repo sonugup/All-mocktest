@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Book</title>
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="stylesheet" href="../styles/form.css">
+  <script src="../scripts/common.js"></script>
+  <script src="../scripts/form.js" defer></script>
+</head>
+
+<body>
+  <!-- main nav  -->
+  <header>
+    <nav class="main_nav">
+      <span class="navheading">
+        book Store app
+      </span>
+      <a href="#">admin</a>
+      <a href="../User/displaydata.html">user</a>
+    </nav>
+  </header>
+  <!-- admin panel nav  -->
+  <nav class="secondary_nav">
+    <a href="./login.html">login</a>
+    <a href="./data.html">data</a>
+    <a href="./form.html">form</a>
+  </nav>
+  <section class="registeration_form">
+    <h1>registeration form</h1>
+    <form class="form">
+      <div class="formfield">
+        <label for="book_img">book image url</label>
+        <input name="book_img" type="url" id="book_img">
+      </div>
+      <div class="formfield">
+        <label for="name">name</label>
+        <input name="name" type="text" id="name">
+      </div>
+      <div class="formfield">
+        <label for="author">author</label>
+        <input name="author" type="text" id="author">
+      </div>
+      <div class="formfield">
+        <label for="genre">genre</label>
+        <select name="genre" id="genre">
+          <option value="">Select genre</option>
+          <option value="science">Science</option>
+          <option value="fiction">Fiction</option>
+          <option value="history">History</option>
+          <option value="tech">Tech</option>
+          <option value="business">Business</option>
+        </select>
+      </div>
+      <div class="formfield">
+        <label for="edition">edition</label>
+        <select name="edition" id="edition">
+          <option value="">Select edition</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+        </select>
+      </div>
+      <div class="formfield">
+        <label for="publisher">publisher</label>
+        <input name="publisher" type="text" id="publisher">
+      </div>
+      <div class="formfield">
+        <label for="cost">cost</label>
+        <input name="cost" type="number" id="cost">
+      </div>
+      <button class="btn login" type="submit">register</button>
+    </form>
+  </section>
+</body>
+
+</html>
